@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Dotnet2C": {
+      "commandName": "Project",
+      "commandLineArgs": "E:\\Programming\\.NET\\Dotnet2C\\ConsoleApp1\\bin\\Debug\\net8.0\\ConsoleApp1.dll"
+    }
+  }
+}
