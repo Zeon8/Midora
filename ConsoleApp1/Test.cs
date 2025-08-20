@@ -2,14 +2,17 @@
 
 namespace ConsoleApp1
 {
-    public class Test
+    public class Program
     {
-        public void TestBrenches(bool value)
-        { 
-           if(!value)
-           {
-                Console.WriteLine("Hello!");
-           }
+        public static void Main(string[] args)
+        {
+            var list = new List<int>
+            {
+                1,
+                2,
+                3,
+                4
+            };
         }
     }
 }

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MethodWriter.cs" />
+    <Compile Remove="VirtualMethodWriter.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="MethodWriter.cs" />
+    <None Include="VirtualMethodWriter.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!--<PackageReference Include="dnlib" Version="4.4.0" />-->
+    <PackageReference Include="Mono.Cecil" Version="0.11.5" />
+    <PackageReference Include="System.Memory" Version="4.5.5" />
+  </ItemGroup>
+
+</Project>
